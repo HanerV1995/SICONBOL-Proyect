@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Orelega+One&family=Poetsen+One&family=Rampart+One&family=Roboto:ital,wght@0,100" rel="stylesheet">
+    <!---------------------------------------->
+    <!------Estilos--------------->
+        <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    <!--------------------------------->
+    <title> SiConBol </title>
+</head>
+<body>
+
+    
+<main>
+    <div class="box">
+        <!--Aqui iran logos y descripcion de paginas-->
+        <header class="logo">
+            <img src="/img/Logo1.PNG" alt="">
+        </header>
+        <div class="boxtitulo">
+            <h1 class="titulo">INICIAR SESIÓN</h1>
+            <h2 class="subtitulo">Inicia sesión para continuar </h2>
+            
+        </div>   
+        <div class="Sesion">
+            <form action="/paguinas/Principal.html" method="post">
+                <label for="name">USUARIO:</label> <br>
+                <input class="texto" type="text" placeholder = "Ingrese su Usuario" 
+                required minlength ="5" id="name" name="user_name"> <br>               
+                <label for="pass">CONTRASEÑA:</label><br>
+                <input class="pass" type="password" placeholder="Ingrese su Contraceña" 
+                required minlength ="5" id="password" name="user_pass"> <br>
+                <div class="boton">
+                    <input type="submit" value="INGRESAR">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</main>
+
+    <footer class="info-copi">
+        <!-- aqui ira el Copyright-->
+        <p>
+            Copyright  ©  Haner Valencia | hanervalencia@hotmail.es | 2024
+        </p>
+    </footer>
+</body>
+</html>
