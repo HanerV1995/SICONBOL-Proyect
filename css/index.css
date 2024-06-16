@@ -1,0 +1,91 @@
+:root{
+    --celeste:#77b6d6;
+    --naranja: #F5B36E;
+    --rojosado:#ef4f4f;
+    --cafe:#3e3a36;
+    --lima:#57d044;
+    --negro: #1D1D1D;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:var(--celeste);
+    vertical-align: middle;
+    letter-spacing: 2px;
+    
+}
+
+.logo img{
+    width: 450px;
+    height: 140px;
+    border-radius: 300px;    
+}
+
+
+.box{
+    color:var(--cafe);
+    margin-top: 100px;
+    /*solo es para pruebas*/
+    /*background-color: yellow;*/
+
+}
+
+/*------------TITULO-------------------------*/
+.boxtitulo, .logo, .boton {
+    text-align: center;
+    /*color:var(--cafe);*/
+    
+    /*solo es para pruebas*/
+    /*background-color: green;*/
+}
+.titulo{
+    font-family: 'Rampart One', sans-serif;
+    font-size: 45px;
+    /*solo es para pruebas*/
+    /*background-color: rgb(221, 4, 4);*/
+    
+}
+.subtitulo{
+    font-size: 20px;
+    margin-top: -15px;
+    font-family: 'Lucida Sans Regular', sans-serif;
+    /*solo es para pruebas*/
+    /*background-color: rgb(74, 4, 167);*/
+    
+}
+
+.Sesion{
+    margin: 40px auto;
+    width: 220px;
+    font-size: 22px;
+    /*solo es para pruebas*/
+    /*background-color: rgb(14, 34, 214);*/
+}
+.Sesion label{
+    font-family: "Poetsen One", sans-serif;
+    text-align: left;
+/*color: var(--cafe);*/
+}
+.Sesion input { 
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-bottom: 25PX;
+    
+    /*solo es para pruebas*/
+    /*background-color: red;*/
+}
+.boton input{ 
+    font-family: "Poetsen One", sans-serif;
+    background-color: var(--naranja);
+    color: var(--cafe);
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 8px 25px;
+    border-radius: 35px;
+    
+}
+footer{
+    text-align: right;
+}

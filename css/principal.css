@@ -1,0 +1,160 @@
+:root{
+    --celeste:#77b6d6;
+    --rojosado:#ef4f4f;
+    --cafe:#3e3a36;
+    --lima:#57d044;
+    --negro: #1d1d1d;
+    --blanco: #ffffff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:var(--celeste);
+    vertical-align: middle;
+    letter-spacing: 3px;
+    
+}
+/*-------------CONTENIDO DEL MENU---------------------*/
+.conten_Pages {
+    display: flex;
+    margin: 40px 10px;
+    height: 120px;
+    /*solo es para pruebas*/
+    /*background-color: rgb(230, 240, 95);*/
+}
+/*--------------------------------------------------------*/
+
+/*------------para centar el contenido del div------------*/
+.titulusu .titulo, .img_conf{
+    display: flex;
+    align-items: center; /*centrado en Y del titulo*/
+
+}
+/*--------------------------------------------------------*/
+/*------------LOGO PROYECTO------------------*/
+.logo img{
+    width: 370px;
+    height: 120px;
+    border-radius: 320px;    
+}
+/*-------------------------------------------*/
+
+/*-------------------TITULO------------------------*/
+.titulusu {
+    display: inline flex;
+    margin:  auto; /* para centrar elcontenedor*/
+    margin-bottom: 0px;
+    /*solo es para pruebas*/
+    /*background-color: black;*/
+}
+.titulusu img{
+    /*width: 120px;*/
+    height: 85px;
+    /*solo es para pruebas*/
+    /*background-color: green*/
+
+}
+.titulusu .titulo{
+/*--------Fuente texto---------*/
+    font-family: 'Rampart One', sans-serif;
+    font-size: 28px;
+    /*color:var(--cafe);*/
+/*---------------------*/
+    margin-left: 15px;
+    height: 85px;
+    /*solo es para pruebas*/
+    /*background-color: green*/
+}
+/*------------------------------------------------------------*/
+
+/*--------------------PERFIL--------------------------*/
+.perfil {
+    display: inline flex;
+    margin: 0px;
+    margin-bottom: auto;
+    /*solo es para pruebas*/
+    /*background-color: blue;*/
+}
+.datos {
+    margin: auto;
+    /*width: 130px;*/
+    /*--------Fuente texto---------*/
+    font-family: "Poetsen One", sans-serif;
+    font-size: 18px;
+    /*---------------------*/
+    height: 50px;
+    margin-right: 15px;
+    /*solo es para pruebas*/
+    /*background-color: white;*/
+}
+.img_conf img{
+    margin-right: 5px;
+    height: 50px;
+    /*solo es para pruebas*/
+    /*background-color: pink;*/
+}
+/*----------------------------------------------------*/
+
+/*-----------------SUBTITULO----------------------------*/
+.sub_titu{
+    text-align: center;
+    /*--------Fuente texto---------*/
+    font-family: "Poetsen One", sans-serif;
+    font-size: 20px;
+    /*---------------------*/    
+    margin-top: 80px;
+    margin-bottom: -20px;
+    /*solo es para pruebas*/
+    /*background-color: rgb(211, 133, 176);*/
+    
+}
+/*------------------------------------------------*/
+
+/*-----------------MENU----------------------------*/
+.menu_home{
+    display: grid;
+    /*text-align: center;*/
+    Margin: auto;
+    /*width: 450px;*/
+    /*solo es para pruebas*/
+    /*background-color: rgb(211, 133, 176);*/
+    
+}
+.home1, .home2{
+    display: inline flex;
+    margin: auto;
+    margin-top: 50PX;
+    /*solo es para pruebas*/
+    /*background-color:yellow;*/
+
+}
+.menu_home section{
+    margin: auto 80px;
+    /*solo es para pruebas*/
+    /*background-color: white;*/
+    
+}
+.menu_home img{
+    display: flex;
+    align-items: center;
+    margin: auto ;
+    height: 100px;
+    /*solo es para pruebas*/
+    /*background-color: black;*/
+    
+}
+.menu_home a{
+    font-family: "Poetsen One", sans-serif;
+    color: var(--cafe); 
+    font-size: 22px;
+    text-decoration: none;
+    width: 150PX;
+    padding: 8px 20px;
+    border: 2px solid var(--negro);
+    border-radius: 40px;
+    background-color: var(--lima);
+}
+
+/*----------------------------------------*/
