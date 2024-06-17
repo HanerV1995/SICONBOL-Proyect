@@ -23,7 +23,7 @@
 .menu li a{
     font-family: "Poetsen One", sans-serif;
     color: var(--blanco); 
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
     padding: 8px 20px;
     border: 2px solid var(--negro);

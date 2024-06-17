@@ -55,7 +55,7 @@ body{
 }
 .titulusu img{
     /*width: 120px;*/
-    height: 85px;
+    height: 70px;
     /*solo es para pruebas*/
     /*background-color: green*/
 
@@ -63,11 +63,11 @@ body{
 .titulusu .titulo{
 /*--------Fuente texto---------*/
     font-family: 'Rampart One', sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     /*color:var(--cafe);*/
 /*---------------------*/
-    margin-left: 15px;
-    height: 85px;
+    margin-left: 20px;
+    height: 70px;
     /*solo es para pruebas*/
     /*background-color: green*/
 }
