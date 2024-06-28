@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "es">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -7,68 +7,77 @@
       <!--------------fuentes ----------------------->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Orelega+One&family=Poetsen+One&family=Rampart+One&family=Roboto:ital,wght@0,100" rel="stylesheet">
-      <!---------------------------------------->
-      <!---------Estilos------------------------>
-      <link rel="stylesheet" type="text/css" href="../css/general.css" media="screen" />
-      <link rel="stylesheet" type="text/css" href="../css/menu.css" media="screen" />
-      <!---------------------------------------->
+      <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Orelega+One&family=Poetsen+One&family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <!----------------------------------------->
+      <!----------Estilos------------------------>
+      <link rel="stylesheet" type="text/css" href="../css/general.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="../css/menu.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="../css/tipo_app.css" media="screen">
+      <!---------------------------------------------->
+      <!-- - - Java Scrips - - -->
+    <script src="../js/general.js"></script>
+      <!----------------------------------------->
     <title>SiConBol</title>
   </head>
   <body>
     <header>
-      <!-------------CONTENIDO DE PAGUINAS--------------->
-      <div class="conten_Pages">
+      <!--------------CONTENIDO DE PAGUINAS--------------->
+      <div class="conten_General">
         <!--Aqui iran logos y descripcion de paginas-->
         <div class="logo"> 
-          <img src="/img/Logo1.PNG" alt="Logo">
+          <img src="../img/Logo1.PNG" alt="Logo">
         </div>
-        <!--------------------------------------------->
-        <!--------------TITULO------------------------------->
-        <div class="titulusu"> 
+        <!---------------------------------------------->
+        <!---------------TITULO------------------------------->
+        <div class="titul_usu"> 
           <div class="img">
-            <img src="/img/Iconos/usuarios1.png" alt="Usuarios">
+            <img src="../img/Iconos/usuarios1.png" alt="Usuarios">
           </div>
           <div class="titulo">
             <h1>USUARIOS</h1>
           </div>
         </div>
-        <!--------------------------------------------->
-        <!---------------PERFIL USU----------------------------->
-        <div class="perfil">
+        <!---------------------------------------------->
+        <!----------------PERFIL USU----------------------------->
+        <div class="conten_perfil">
           <div class="datos">
             <span>Nombre de Usu</span> <br>
             <span> ID Usu</span>
           </div>
           <div class="img_conf">
-            <img src="/img/Iconos/usu1.png" alt="foto_Perfil">
-              <ul class="perfil">
-                <li><img src="/img/Iconos/menu_usu1.png" alt="conf_Perfil">
-                  <ul>
-                    <li><a href="">Perfil</a></li>
-                    <li><a href="/Index.html">Cerrar Sesión</a></li>
+            <img src="../img/Iconos/usu1.png" alt="foto_Perfil">
+              <ul class="menu_perfil">
+                <li class="menu_item"><img src="../img/Iconos/menu_usu1.png" alt="conf_Perfil">
+                  <ul class="submenu">
+                    <li class="submenu_item"><a href="">Perfil</a></li>
+                    <li class="submenu_item"><a href="../Index.html">Cerrar Sesión</a></li>
                   </ul>
                 </li>
-              </ul>             
+              </ul>            
           </div>
         </div> 
-        <!--------------------------------------------------------->
+        <!---------------------------------------------------------->
       </div>
-      <!------------------------------------------------->
+      <!-------------------------------------------------->
     </header>
     <nav>
-      <!-----------MENU---------------------------------->
+      <!------------MENU---------------------------------->
+      
       <div class="menu">  
+        <div class="menu_lateral">
+        <img src="../img/Iconos/menu_lateral2.png" alt="" class=" menu_open">
+        <img src="../img/Iconos/menu_late_closed.png" alt="" class="menu_close">
+        </div>
         <ul >
-          <li><a href="/paguinas/Principal.html">PRINCIPAL</a></li>
-          <li><a href="/paguinas/Usuarios.html">USUARIOS</a></li>
-          <li><a href="/paguinas/Trabajadores.html">TRABAJADORES</a></li>
-          <li><a href="/paguinas/Boletas.html">BOLETAS</a></li>
-          <li><a href="/paguinas/Facturacion.html">FACTURACIÓN</a></li>
-          <li><a href="/paguinas/Log.html">LOGS</a></li>
+          <li><a href="Principal.html">PRINCIPAL</a></li>
+          <li><a href="Usuarios.html">USUARIOS</a></li>
+          <li><a href="Trabajadores.html">TRABAJADORES</a></li>
+          <li><a href="Boletas.html">BOLETAS</a></li>
+          <li><a href="Facturacion.html">FACTURACIÓN</a></li>
+          <li><a href="Log.html">LOGS</a></li>
         </ul>
       </div>
-      <!--------------------------------------------->
+      <!---------------------------------------------->
     </nav>
     <main>
         
@@ -77,5 +86,6 @@
     <!-- aqui ira el Copyright-->
       <p><b> Copyright  ©  Haner Valencia | hanervalencia@hotmail.es | 2024</b></p>
     </footer>
+    
   </body>
 </html>

@@ -8,28 +8,63 @@
 }
 
 /*-----------------MENU----------------------------*/
+/*---------- MENU LATERAL --------------*/
+.menu_lateral{
+    margin-bottom: 4px;
+    /*background-color: aliceblue;*/
+}
+
+.menu_lateral .menu_open, .menu_lateral .menu_close{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    /*background-color: #77b6d6*/
+}
+
+.menu_lateral .menu_open{
+    display: none;
+}
+
+.menu_lateral .menu_close{
+        display: none;
+}
+
+/*-------------------------------------*/
+/*---------- MENU GENERAL -------------*/
 .menu{
+    margin: auto 20px;
+    justify-content: center;
     text-align: center;
     /*solo es para pruebas*/
     /*background-color: rgb(211, 133, 176);*/
     
 }
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
 .menu li{
     list-style-type: none;
     display: inline;
     margin: -2px;
 
 }
+
 .menu li a{
     font-family: "Poetsen One", sans-serif;
-    color: var(--blanco); 
+    color: var(--blanco);
+    -webkit-text-stroke: 0.5px var(--negro);
     font-size: 20px;
+    font-weight: 900;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 8px 10px;
     border: 2px solid var(--negro);
     border-radius: 40px;
     background-color: var(--lima);
-
 }
+
+/*-----------------------------------*/
 /*----------------------------------------*/
 

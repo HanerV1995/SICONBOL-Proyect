@@ -17,89 +17,148 @@ body{
     letter-spacing: 1.5px;
     
 }
+
 /**********************************************************************************************/
 /*-------------CONTENIDO DEL MENU---------------------*/
-.conten_Pages {
+.conten_General {
     display: flex;
     position: relative;
     margin: 40px 10px;
-    height: 120px;
+    height: 130px;
     /*solo es para pruebas*/
-    /*background-color: rgb(230, 240, 95);*/
+    /*background-color: yellow;*/
 }
+
 /*--------------------------------------------------------*/
 
 /*------------LOGO PROYECTO------------------*/
-.logo img{
+.logo .img, .logo img{
     width: 370px;
-    height: 120px;
+    height: 100%;
     border-radius: 320px;    
 }
+
 /*-------------------------------------------*/
 
 /*---------------para centar el contenido del div---------------*/
-.titulusu .titulo, .img_conf{
+.titul_usu .titulo, .img_conf, .conten_perfil{
     display: flex;
     align-items: center; /*centrado en Y del titulo*/
-
 }
+
 /*--------------------------------------------------------------*/
 /*********************************************************************************************/
 /*-------------------TITULO------------------------*/
-.titulusu {
-    display: inline flex;
+.titul_usu {
+    display: flex;
     margin:  auto; /* para centrar elcontenedor*/
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    padding: 0 20px; 
+    height: 75px;   
     /*solo es para pruebas*/
-    /*background-color: black;*/
+    /*background-color: gray;*/
 }
-.titulusu img{
+
+.titul_usu .img, .titul_usu img{
     /*width: 120px;*/
-    height: 70px;
+    height: 100%;
     /*solo es para pruebas*/
     /*background-color: green*/
-
 }
-.titulusu .titulo{
+
+.titul_usu .titulo{
 /*--------Fuente texto---------*/
     font-family: 'Rampart One', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    margin-left: 10px;
+    height: 75px;
     /*color:var(--cafe);*/
 /*---------------------*/
-    margin-left: 20px;
-    height: 70px;
     /*solo es para pruebas*/
     /*background-color: green*/
 }
+
 /*------------------------------------------------------------*/
 /*******************************************************************************/
 /*--------------------PERFIL--------------------------*/
-.perfil {
-    display: inline flex;
-    margin: 0px;
-    margin-bottom: auto;
+.conten_perfil {
+    height: 50px;  
+    margin-right: 10px;
     /*solo es para pruebas*/
     /*background-color: blue;*/
 }
+
 .datos {
     display: block;
-    margin: auto;
+    margin: auto;    
     /*width: 130px;*/
     /*--------Fuente texto---------*/
     font-family: "Poetsen One", sans-serif;
     font-size: 18px;
     /*---------------------*/
-    height: 50px;
+    height: 100%;
     margin-right: 15px;
     /*solo es para pruebas*/
     /*background-color: white;*/
 }
-.img_conf img{
-    margin-right: 5px;
-    height: 50px;
+
+/*-----------IMAGEN PERFIL--------------------*/
+.img_conf{
+    height: 100%;
+    justify-content: space-between;
     /*solo es para pruebas*/
     /*background-color: pink;*/
 }
+
+.menu_perfil {
+    margin-left: 5px;
+    padding: 0;
+    height: 100%;
+    transition: transform .3s;
+    display: flex;
+    justify-content: center;
+    font-family: "Poetsen One", sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    
+}
+
+.menu_item{
+    list-style: none;
+    position: relative;
+    height: 100%;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.menu_item:hover{
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.submenu {
+    list-style: none;
+    transition: clip-path .2s;
+    clip-path: var(--clip);
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    padding: 0;
+    width: max-content;
+    transform: translateY(100%);
+    background-color: var(--lima);
+    border: 2px solid var(--negro);
+    border-radius: 10px;
+}
+
+.submenu li a{
+    color: var(--blanco);
+    font-size: 18px;
+    -webkit-text-stroke: 1px var(--negro);
+    text-decoration: none;
+    padding: 3px 15px 0 15px;
+    display: flex;
+    height: 100%;
+    /*background-color: #3e3a36;*/
+}
+
 /*----------------------------------------------------*/
 /************************************************************************************************/
 /*-----------------PIE DE PAGINA------------------------*/
@@ -112,4 +171,5 @@ body{
     text-align: center;
     /*background-color: #ef4f4f;*/
 }
+
 /*----------------------------------------------------*/

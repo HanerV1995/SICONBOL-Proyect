@@ -1,0 +1,110 @@
+
+:root{
+    --celeste:#77b6d6;
+    --rojosado:#ef4f4f;
+    --cafe:#3e3a36;
+    --lima:#57d044;
+    --negro: #1d1d1d;
+    --blanco: #f3fefe;
+}
+
+/*------------PARA CUANDO PANTALLA ESTE TAMAÑO 900 PX-*/
+
+@media (max-width:1000px){
+/*---------CONTENIDO GENERAL----------------*/
+    .conten_General{
+        display: flex;
+        height: 150px;
+    }
+
+    /*------------ LOGO --------------------*/
+    .logo img {
+        width: 250px;
+        height: 95px;
+    }
+
+    /*-------------------------------------*/
+    /*------------ TITULO -----------------*/
+    .titul_usu .img, .titul_usu img{
+        margin: auto;
+        height: 90%;
+        text-align: center;
+        /*background-color: bisque;*/
+    }
+
+    .titul_usu .titulo{
+        height: 100%;
+        font-size: 16px;
+        /*background-color: blue;*/
+    }
+
+    /*-----------------------------------*/
+/*------------------------------------------------*/
+/**********************************************************/
+/*------------------- PERFIL ----------------------*/
+    .conten_perfil{
+        height: 35px;
+        /*background-color: bisque;*/
+    }
+
+    .datos{
+        /*display: none;*/
+        font-size: 14px;
+    }
+
+    .img_conf img{
+        height: 100%;
+        /*background-color: aquamarine;*/
+    }
+
+/*************************************************/
+    /*--------------MENU GENERAL-------------------*/
+    .menu_lateral{
+        width: 20px;
+        padding: 8px;
+        align-content: center;
+        border-width: 2px;
+        border-style: solid;
+        border-color:  var(--negro);
+        background-color: var(--lima);
+    }
+    
+    .menu_lateral .menu_open{
+        display: none;
+    }
+
+    .menu_lateral .menu_close{
+        display: block;
+    }
+
+    .menu{
+        position: fixed;
+        /*max-width: auto;*/
+        left: 0;
+        background-color: remove;
+        /*overflow-x: auto;*/
+        /*display: grid;*/
+        /*grid-auto-rows: max-content;*/
+    }
+
+    .menu li{
+        display: grid;
+        margin: 0;
+    }
+    .menu li a {
+        padding: 0 auto ;
+        border-radius: 0;
+        margin: 1px 4px;
+        background-color: var(--lima);
+    }
+
+    .menu li a:hover{
+        font-size: 21px;
+        border: 4px solid var(--cafe);
+        clip-path: var(--clip);
+        background-image: linear-gradient(to bottom right, var(--rojosado), var(--lima), var(--celeste));
+        text-decoration-line: underline;
+    }
+    
+}
+
